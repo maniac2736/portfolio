@@ -1,0 +1,28 @@
+/* Add hover effect to make the nav links move up */
+.nav-link {
+    position: relative;
+    padding-bottom: 5px; /* Space for the underline */
+    transition: all 0.3s ease; /* Smooth transition for underline */
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%; /* Line expands to full width on hover */
+  }
+  
+  /* Make the nav item go slightly up on hover */ 
+  /* .nav-link:hover {
+    transform: translateY(-3px); 
+  } */
+  
+  .nav-link.active {
+    color: #fea2c5 !important;
+}
+
