@@ -1,4 +1,4 @@
-import { servicesData } from '../data/ServicesData';
+import { servicesData } from '../../data/ServicesData';
 
 const cardStyle = {
     backgroundColor: "#343a40",

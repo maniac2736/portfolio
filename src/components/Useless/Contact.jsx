@@ -1,5 +1,4 @@
-import AppHeader from "./AppHeader";
-import AppFooter from "./AppFooter";
+import AppHeader from "../AppHeader";
 import "./Contact.css";
 
 const ContactMe = () => {
@@ -10,7 +9,7 @@ const ContactMe = () => {
       <p className="text-white">
         Feel free to reach out to me via the platforms below!
       </p>
-      <div className="d-flex gap-4 mt-3">
+      <div className="d-flex gap-4 ">
         <a
           href="https://mail.google.com/mail/?view=cm&to=birakmzac@gmail.com"
           target="_blank"
@@ -62,7 +61,6 @@ const ContactMe = () => {
           ></i>
         </a>
       </div>
-      <AppFooter />
     </div>
   );
 };

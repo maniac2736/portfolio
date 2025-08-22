@@ -14,9 +14,11 @@
     "getlogs:pm2": "scp -r root@62.146.228.207:/root/.pm2/logs/ ./logs"
   },
   "dependencies": {
+    "framer-motion": "^12.23.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.4.0"
+    "react-router-dom": "^7.4.0",
+    "react-typed": "^2.0.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",

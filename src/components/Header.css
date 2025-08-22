@@ -26,3 +26,9 @@
     color: #fea2c5 !important;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4); /* translucent black or adjust color */
+  backdrop-filter: blur(10px); /* blurs whatever is behind */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  z-index: 9999; /* keep navbar always on top */
+}
