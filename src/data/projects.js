@@ -150,6 +150,30 @@ export const projects = [
 
   {
     id: 6,
+    title: "Task Management System",
+    description:
+      "Developed a task management app to organize personal and team tasks. Features include task creation, status tracking, priority labeling, and deadline reminders, with a responsive and user-friendly interface.",
+    stack: ["React", "Node.js"],
+    technologiesUsed: [
+      { name: "React", icon: "fab fa-react", color: "#61DAFB" },
+      { name: "Node.js", icon: "fab fa-node-js", color: "#339933" },
+      { name: "MySql", icon: "fas fa-database", color: "#47A248" },
+      { name: "JWT", icon: "fa fa-key", color: "#F7DF1E" },
+      { name: "Socket.io", icon: "fa fa-sitemap", color: "#010101" },
+    ],
+    contributions: [
+      "Task creation and assignment",
+      "Status tracking and priority labels",
+      "Deadline reminders",
+      "Real-time updates using Socket.io",
+      "Secure authentication with JWT",
+    ],
+    type: "personal",
+    image: TMA,
+  },
+
+  {
+    id: 9,
     title: "Coffee Shop Management",
     description:
       "Developed a staff-facing system for a coffee shop to efficiently handle customer orders, manage subscriptions and memberships, and track inventory. Simplifies daily operations and improves order accuracy and speed.",
@@ -216,29 +240,5 @@ export const projects = [
     ],
     type: "personal",
     image: Recommendation,
-  },
-
-  {
-    id: 9,
-    title: "Task Management System",
-    description:
-      "Developed a task management app to organize personal and team tasks. Features include task creation, status tracking, priority labeling, and deadline reminders, with a responsive and user-friendly interface.",
-    stack: ["React", "Node.js"],
-    technologiesUsed: [
-      { name: "React", icon: "fab fa-react", color: "#61DAFB" },
-      { name: "Node.js", icon: "fab fa-node-js", color: "#339933" },
-      { name: "MySql", icon: "fas fa-database", color: "#47A248" },
-      { name: "JWT", icon: "fa fa-key", color: "#F7DF1E" },
-      { name: "Socket.io", icon: "fa fa-sitemap", color: "#010101" },
-    ],
-    contributions: [
-      "Task creation and assignment",
-      "Status tracking and priority labels",
-      "Deadline reminders",
-      "Real-time updates using Socket.io",
-      "Secure authentication with JWT",
-    ],
-    type: "personal",
-    image: TMA,
   },
 ];
