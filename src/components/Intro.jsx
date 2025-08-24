@@ -21,7 +21,7 @@ const skillsList = [
   "Graphics Design",
   "Blockchain Development",
   "UI/UX Design",
-  "Testing",
+  "Teamwork",
 ];
 
 const Intro = () => {

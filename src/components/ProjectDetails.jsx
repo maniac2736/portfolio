@@ -2,11 +2,16 @@ import { useParams } from "react-router-dom";
 import { projects } from "../data/projects";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function ProjectDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const project = projects.find((p) => p.id === parseInt(id));
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) {
     return (
